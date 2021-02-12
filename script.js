@@ -3,6 +3,5 @@ document.getElementById('hello')
 
 function buttonOn () {
   alert('Hello')
-    document.getElementById('background')    
-    .style.backgroundcolor = 'red'
+  document.getElementById('background').style.backgroundColor = 'Blue'
 }
