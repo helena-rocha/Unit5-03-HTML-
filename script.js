@@ -1,8 +1,8 @@
-document.getElementById('hello')
-.addEventListener('click', buttonOn)
+  document.getElementById('hello')
+  .addEventListener('click', buttonOn)
 
-function buttonOn() {
+function buttonOn () {
   alert('Hello')
-  document.getElementById('background')
-  .style.backgroundcolor = 'red'
+  document.getElementById('background')    
+    .style.backgroundcolor = 'red'
 }
